@@ -1,0 +1,19 @@
+﻿<Window x:Class="DbRest.DobavZapasWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbRest"
+        mc:Ignorable="d"
+        Title="DobavZapasWindow" Height="376" Width="683">
+    <Grid Margin="0,0,10,12">
+        <Label Content="Имя продукта" HorizontalAlignment="Left" Margin="63,71,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="63,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Минимальный остаток" HorizontalAlignment="Left" Margin="63,174,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxMinOst" HorizontalAlignment="Left" Margin="216,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="22" TextChanged="TextBoxMinOst_TextChanged"/>
+        <TextBox x:Name="TextBoxKolichestvo" HorizontalAlignment="Left" Margin="172,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Height="22" TextChanged="TextBoxKolichestvo_TextChanged"/>
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="172,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Height="26" TextChanged="TextBoxName_TextChanged"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="79,252,0,0" VerticalAlignment="Top" Height="30" Width="104" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="DbRest.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbRest"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid Margin="10,71,0,35">
+        <DataGrid x:Name="UserDataGrid" AutoGenerateColumns="True" Margin="14,10,10,64"
+                  CellEditEnding="UserDataGrid_CellEditEnding" SelectionChanged="UserDataGrid_SelectionChanged" />
+
+        <Button Content="Клиенты" HorizontalAlignment="Left" Margin="14,-48,0,0" VerticalAlignment="Top" Height="32" Width="93" Click="Button_Click"/>
+        <Button Content="Меню" HorizontalAlignment="Left" Margin="122,-45,0,0" VerticalAlignment="Top" Height="29" Width="73" Click="Button_Click_1"/>
+        <Button Content="Запасы" HorizontalAlignment="Left" Margin="215,-45,0,0" VerticalAlignment="Top" Height="29" Width="71" Click="Button_Click_2"/>
+        <Button Content="Сотрудники" HorizontalAlignment="Left" Margin="302,-47,0,0" VerticalAlignment="Top" Height="31" Width="72" Click="Button_Click_4"/>
+        <Button Content="Поставщики" HorizontalAlignment="Left" Margin="394,-45,0,0" VerticalAlignment="Top" Height="29" Width="83" Click="Button_Click_5"/>
+        <Button Content="Закрыть" HorizontalAlignment="Left" Margin="644,-47,0,0" VerticalAlignment="Top" Height="29" Width="105" Click="Button_Click_3"/>
+
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="14,281,0,0" VerticalAlignment="Top" Height="26" Width="93" Click="Button_Click_6"/>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="122,281,0,0" VerticalAlignment="Top" Height="26" Width="95" Click="Button_Click_8"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="231,281,0,0" VerticalAlignment="Top" Height="26" Width="70" Click="Button_Click_7"/>
+    </Grid>
+</Window>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище restaurantdbModelContainer" CdmEntityContainer="restaurantdbEntities">
+    <EntitySetMapping Name="menu">
+      <EntityTypeMapping TypeName="restaurantdbModel.menu">
+        <MappingFragment StoreEntitySet="menu">
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="kategoriya" ColumnName="kategoriya" />
+          <ScalarProperty Name="nazvanie_bluda" ColumnName="nazvanie_bluda" />
+          <ScalarProperty Name="ingredient" ColumnName="ingredient" />
+          <ScalarProperty Name="cena" ColumnName="cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="polzovateli">
+      <EntityTypeMapping TypeName="restaurantdbModel.polzovateli">
+        <MappingFragment StoreEntitySet="polzovateli">
+          <ScalarProperty Name="polzovatel_id" ColumnName="polzovatel_id" />
+          <ScalarProperty Name="imya_polzovatelya" ColumnName="imya_polzovatelya" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="parol" ColumnName="parol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="postavchik">
+      <EntityTypeMapping TypeName="restaurantdbModel.postavchik">
+        <MappingFragment StoreEntitySet="postavchik">
+          <ScalarProperty Name="postavchik_id" ColumnName="postavchik_id" />
+          <ScalarProperty Name="nazvanie_postavchika" ColumnName="nazvanie_postavchika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="role">
+      <EntityTypeMapping TypeName="restaurantdbModel.role">
+        <MappingFragment StoreEntitySet="role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="role_nazvanie" ColumnName="role_nazvanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sotrudniki">
+      <EntityTypeMapping TypeName="restaurantdbModel.sotrudniki">
+        <MappingFragment StoreEntitySet="sotrudniki">
+          <ScalarProperty Name="sotrudnik_id" ColumnName="sotrudnik_id" />
+          <ScalarProperty Name="imya_sotrudnika" ColumnName="imya_sotrudnika" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="parol" ColumnName="parol" />
+          <ScalarProperty Name="role_polzovatel" ColumnName="role_polzovatel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="zapas">
+      <EntityTypeMapping TypeName="restaurantdbModel.zapas">
+        <MappingFragment StoreEntitySet="zapas">
+          <ScalarProperty Name="produkt_id" ColumnName="produkt_id" />
+          <ScalarProperty Name="imya_produkta" ColumnName="imya_produkta" />
+          <ScalarProperty Name="kolichestvo" ColumnName="kolichestvo" />
+          <ScalarProperty Name="minimal_ostatok" ColumnName="minimal_ostatok" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

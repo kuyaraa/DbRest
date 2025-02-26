@@ -1,0 +1,18 @@
+﻿<Window x:Class="DbRest.DobavlenieWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbRest"
+        mc:Ignorable="d"
+        Title="DobavlenieWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Пользователи" HorizontalAlignment="Left" Margin="27,29,0,0" VerticalAlignment="Top" Height="36" Width="140" Click="Button_Click"/>
+        <Button Content="Сотрудники" HorizontalAlignment="Left" Margin="27,83,0,0" VerticalAlignment="Top" Height="36" Width="145" Click="Button_Click_1"/>
+        <Button Content="Меню" HorizontalAlignment="Left" Margin="27,140,0,0" VerticalAlignment="Top" Height="36" Width="145" Click="Button_Click_2"/>
+        <Button Content="Запасы" HorizontalAlignment="Left" Margin="27,0,0,0" VerticalAlignment="Center" Height="36" Width="145" Click="Button_Click_3"/>
+        <Button Content="Поставщики" HorizontalAlignment="Left" Margin="27,258,0,0" VerticalAlignment="Top"  Height="36" Width="145" Click="Button_Click_4"/>
+        <Button Content="Закрыть" HorizontalAlignment="Left" Margin="674,14,0,0" VerticalAlignment="Top" Height="33" Width="102" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>

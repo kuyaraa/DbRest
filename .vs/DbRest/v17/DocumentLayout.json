@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|c:\\users\\pig\\downloads\\telegram desktop\\dbrest\\dbrest\\dbrest\\suschnosti\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|solutionrelative:dbrest\\suschnosti\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\dbrest\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|solutionrelative:dbrest\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\dbrest\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|solutionrelative:dbrest\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\dbrest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F0B40A1-15C0-407A-BDB9-0DEB5F7148E6}|DbRest\\DbRest.csproj|solutionrelative:dbrest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DbRest\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DbRest\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAlwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T17:59:07.816Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DbRest\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "DbRest\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwDwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:07:17.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "DbRest\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\AdminWindow.xaml",
+              "RelativeToolTip": "DbRest\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-25T18:07:50.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\Suschnosti\\Model1.edmx",
+              "RelativeDocumentMoniker": "DbRest\\Suschnosti\\Model1.edmx",
+              "ToolTip": "C:\\Users\\pig\\Downloads\\Telegram Desktop\\DbRest\\DbRest\\DbRest\\Suschnosti\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DbRest\\Suschnosti\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-25T17:59:07.809Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 242,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

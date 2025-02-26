@@ -1,0 +1,109 @@
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\DbRest.exe.config
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\DbRest.exe
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\DbRest.pdb
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\EntityFramework.dll
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.dll
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\EntityFramework.xml
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.xml
+D:\цикл 5 приложение\DbRest\DbRest\bin\Debug\ru\EntityFramework.resources.dll
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.csproj.AssemblyReference.cache
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.csproj.SuggestedBindingRedirects.cache
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\AdminWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DobavlenieWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\MainWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\PolzovateliWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\SotrudnikiWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\App.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest_Content.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.cache
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.lref
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\AdminWindow.baml
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DobavlenieWindow.baml
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\MainWindow.baml
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\PolzovateliWindow.baml
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\SotrudnikiWindow.baml
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.g.resources
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.Properties.Resources.resources
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.csproj.GenerateResource.cache
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.csproj.CoreCompileInputs.cache
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.csproj.CopyComplete
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.exe
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\DbRest.pdb
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\IsmenitWindow.g.cs
+D:\цикл 5 приложение\DbRest\DbRest\obj\Debug\IsmenitWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\DbRest.exe.config
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\DbRest.exe
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\DbRest.pdb
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\EntityFramework.dll
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\EntityFramework.xml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.csproj.AssemblyReference.cache
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\AdminWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DobavlenieWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\IsmenitWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\MainWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\PolzovateliWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\SotrudnikiWindow.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\App.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest_Content.g.cs
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.cache
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.lref
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\AdminWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DobavlenieWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\IsmenitWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\MainWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\PolzovateliWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\SotrudnikiWindow.baml
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.g.resources
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.Properties.Resources.resources
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.csproj.GenerateResource.cache
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.csproj.CoreCompileInputs.cache
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.csproj.Up2Date
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.exe
+C:\Users\pig\Downloads\Telegram Desktop\DbRest\DbRest\DbRest\obj\Debug\DbRest.pdb
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\DbRest.exe.config
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\DbRest.exe
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\DbRest.pdb
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\EntityFramework.dll
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\EntityFramework.xml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.csproj.AssemblyReference.cache
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\AdminWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavlenieWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\IsmenitWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\MainWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\PolzovateliWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\SotrudnikiWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\App.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest_Content.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.cache
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest_MarkupCompile.lref
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\AdminWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavlenieWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\IsmenitWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\MainWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\PolzovateliWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\SotrudnikiWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.g.resources
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.Properties.Resources.resources
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.csproj.GenerateResource.cache
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.csproj.CoreCompileInputs.cache
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.csproj.Up2Date
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.exe
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DbRest.pdb
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavPolzWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavPolzWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavSotrudWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavSotrudWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavMenuWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavMenuWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavZapasWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavZapasWindow.baml
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavPostavWindow.g.cs
+C:\Users\Ярослава.DESKTOP-RUHHGIK\Desktop\DbRest\DbRest\obj\Debug\DobavPostavWindow.baml

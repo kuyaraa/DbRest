@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище restaurantdbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="menu">
+    <Key>
+      <PropertyRef Name="menu_id" />
+    </Key>
+    <Property Name="menu_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kategoriya" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="nazvanie_bluda" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="ingredient" Type="varchar" MaxLength="250" />
+    <Property Name="cena" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="polzovateli">
+    <Key>
+      <PropertyRef Name="polzovatel_id" />
+    </Key>
+    <Property Name="polzovatel_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imya_polzovatelya" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="telefon" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="250" />
+    <Property Name="parol" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="postavchik">
+    <Key>
+      <PropertyRef Name="postavchik_id" />
+    </Key>
+    <Property Name="postavchik_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazvanie_postavchika" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role_nazvanie" Type="varchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sotrudniki">
+    <Key>
+      <PropertyRef Name="sotrudnik_id" />
+    </Key>
+    <Property Name="sotrudnik_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imya_sotrudnika" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="250" />
+    <Property Name="parol" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="role_polzovatel" Type="int" />
+  </EntityType>
+  <EntityType Name="zapas">
+    <Key>
+      <PropertyRef Name="produkt_id" />
+    </Key>
+    <Property Name="produkt_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="imya_produkta" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="kolichestvo" Type="float" Nullable="false" />
+    <Property Name="minimal_ostatok" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__sotrudnik__role___286302EC">
+    <End Role="role" Type="Self.role" Multiplicity="0..1" />
+    <End Role="sotrudniki" Type="Self.sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="role">
+        <PropertyRef Name="role_id" />
+      </Principal>
+      <Dependent Role="sotrudniki">
+        <PropertyRef Name="role_polzovatel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище restaurantdbModelContainer">
+    <EntitySet Name="menu" EntityType="Self.menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="polzovateli" EntityType="Self.polzovateli" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="postavchik" EntityType="Self.postavchik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="role" EntityType="Self.role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sotrudniki" EntityType="Self.sotrudniki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="zapas" EntityType="Self.zapas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__sotrudnik__role___286302EC" Association="Self.FK__sotrudnik__role___286302EC">
+      <End Role="role" EntitySet="role" />
+      <End Role="sotrudniki" EntitySet="sotrudniki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

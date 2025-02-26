@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="restaurantdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="menu">
+    <Key>
+      <PropertyRef Name="menu_id" />
+    </Key>
+    <Property Name="menu_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kategoriya" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nazvanie_bluda" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ingredient" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="cena" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="polzovateli">
+    <Key>
+      <PropertyRef Name="polzovatel_id" />
+    </Key>
+    <Property Name="polzovatel_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="imya_polzovatelya" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefon" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="parol" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="postavchik">
+    <Key>
+      <PropertyRef Name="postavchik_id" />
+    </Key>
+    <Property Name="postavchik_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nazvanie_postavchika" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="role_nazvanie" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="sotrudniki" Relationship="Self.FK__sotrudnik__role___286302EC" FromRole="role" ToRole="sotrudniki" />
+  </EntityType>
+  <EntityType Name="sotrudniki">
+    <Key>
+      <PropertyRef Name="sotrudnik_id" />
+    </Key>
+    <Property Name="sotrudnik_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="imya_sotrudnika" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="login" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="parol" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role_polzovatel" Type="Int32" />
+    <NavigationProperty Name="role" Relationship="Self.FK__sotrudnik__role___286302EC" FromRole="sotrudniki" ToRole="role" />
+  </EntityType>
+  <EntityType Name="zapas">
+    <Key>
+      <PropertyRef Name="produkt_id" />
+    </Key>
+    <Property Name="produkt_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="imya_produkta" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="kolichestvo" Type="Double" Nullable="false" />
+    <Property Name="minimal_ostatok" Type="Double" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__sotrudnik__role___286302EC">
+    <End Role="role" Type="Self.role" Multiplicity="0..1" />
+    <End Role="sotrudniki" Type="Self.sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="role">
+        <PropertyRef Name="role_id" />
+      </Principal>
+      <Dependent Role="sotrudniki">
+        <PropertyRef Name="role_polzovatel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="restaurantdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="menu" EntityType="Self.menu" />
+    <EntitySet Name="polzovateli" EntityType="Self.polzovateli" />
+    <EntitySet Name="postavchik" EntityType="Self.postavchik" />
+    <EntitySet Name="role" EntityType="Self.role" />
+    <EntitySet Name="sotrudniki" EntityType="Self.sotrudniki" />
+    <EntitySet Name="zapas" EntityType="Self.zapas" />
+    <AssociationSet Name="FK__sotrudnik__role___286302EC" Association="Self.FK__sotrudnik__role___286302EC">
+      <End Role="role" EntitySet="role" />
+      <End Role="sotrudniki" EntitySet="sotrudniki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
